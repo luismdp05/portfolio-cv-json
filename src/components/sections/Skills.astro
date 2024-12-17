@@ -1,0 +1,73 @@
+---
+import Section from "../Section.astro"
+import HTML5 from "@/icons/html5.astro"
+import GitHub from "@/icons/GitHub.astro"
+import Git from "@/icons/git.astro"
+import { skills } from "@cv"
+import CSS3 from "@/icons/css.astro"
+import Python from "@/icons/python.astro"
+import JavaScript from "@/icons/javascript.astro"
+import Xml from "@/icons/xml.astro"
+import Odoo from "@/icons/odoo.astro"
+import Django from "@/icons/django.astro"
+import LINUX from "@/icons/linux.astro"
+import DOCKER from "@/icons/docker.astro"
+import NetworkAdmin from "@/icons/network-admin.astro"
+import SystemAdmin from "@/icons/system-admin.astro"
+import Teamwork from "@/icons/teamwork.astro"
+import SCRUM from "@/icons/scrum.astro"
+
+const SKILLS_ICONS: Record<string, any> = {
+  HTML5,
+  CSS3,
+  Python,
+  JavaScript,
+  Xml,
+  Odoo,
+  Django,
+  Git,
+  GitHub,
+  LINUX,
+  DOCKER,
+  NetworkAdmin,
+  SystemAdmin,
+  Teamwork,
+  SCRUM,
+}
+---
+
+<Section title="Habilidades">
+  <ul>
+    {
+      skills.map(({ name }) => {
+        const Icon = SKILLS_ICONS[name]
+
+        return (
+          <li>
+            {Icon && <Icon />} <span>{name}</span>
+          </li>
+        )
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: inline-flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  li {
+    align-items: center;
+    background: #eee;
+    border-radius: 6px;
+    color: black;
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: 500;
+    gap: 4px;
+    padding: 0.2rem 0.6rem;
+  }
+</style>

@@ -1,0 +1,244 @@
+{
+  "basics": {
+    "name": "Luis Miguel Domínguez Piel",
+    "label": "Computer Science Engineer",
+    "image": "/me.webp",
+    "email": "ldominguezpiel@gmail.com",
+    "phone": "+34 688888888",
+    "url": "https://github.com/luismdp05",
+    "summary": "Passionate Computer Science Engineer focused on technology and innovative solution development. My experience centers on web development, enterprise software solutions, as well as network management and IT system administration. Driven by personal development, proactivity, and productivity, acquiring new experiences that not only enrich my skills but allow me to provide significant value to the organizations I collaborate with.",
+    "location": {
+      "address": "",
+      "postalCode": "17100",
+      "city": "La Habana",
+      "countryCode": "ES",
+      "region": "Cuba"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "luismdp05",
+        "url": "https://www.linkedin.com/in/luismdp05/"
+      },
+      {
+        "network": "X",
+        "username": "luismdp05",
+        "url": "https://x.com/luismdp05"
+      },
+      {
+        "network": "GitHub",
+        "username": "luismdp05",
+        "url": "https://github.com/luismdp05"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Freelance Developer",
+      "position": "Developer",
+      "url": "https://github.com/luismdp05",
+      "startDate": "2024-02",
+      "endDate": null,
+      "summary": "I offer software development services, Odoo module development and customization, network management, and IT system administration.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "University of Computer Science",
+      "position": "Professor",
+      "url": "https://www.uci.cu/",
+      "startDate": "2024-02",
+      "endDate": null,
+      "summary": "Teaching Information Security Networks course at the Computer Engineering degree program, Department of Digital Systems, University of Computer Science (UCI).",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Medium Coders",
+      "position": "Odoo ERP Developer",
+      "startDate": "2024-02-25",
+      "endDate": null,
+      "summary": "Development of a custom Website module for Hino Panama company.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "University of Computer Science - CIGE",
+      "position": "Software Developer",
+      "startDate": "2022-09",
+      "endDate": "2023-12",
+      "summary": "Development of a Maritime Goods Availability Management Module at the Government Enterprise Information Center (CIGE) for TECNOTEX company using Odoo version 15.",
+      "highlights": [
+        "Started the company"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Computer Science",
+      "url": "https://www.uci.cu/",
+      "area": "Computer Science Engineering",
+      "studyType": "Engineering",
+      "startDate": "2018-09",
+      "endDate": "2023-12",
+      "score": "4.18",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML5",
+      "level": "Medium",
+      "keywords": [
+        "Web Development",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "CSS3",
+      "level": "Medium",
+      "keywords": [
+        "Web Development",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Medium",
+      "keywords": [
+        "Backend",
+        "Data Science"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Medium",
+      "keywords": [
+        "Frontend",
+        "Interactive Development"
+      ]
+    },
+    {
+      "name": "XML",
+      "level": "Medium",
+      "keywords": [
+        "Interfacing",
+        "Configuration"
+      ]
+    },
+    {
+      "name": "Odoo",
+      "level": "Medium",
+      "keywords": [
+        "ERP",
+        "Business Management"
+      ]
+    },
+    {
+      "name": "Django",
+      "level": "Medium",
+      "keywords": [
+        "Backend",
+        "Web Development"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Medium",
+      "keywords": [
+        "Version Control",
+        "Project Collaboration"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Medium",
+      "keywords": [
+        "Repositories",
+        "Project Collaboration"
+      ]
+    },
+    {
+      "name": "Linux",
+      "level": "Medium",
+      "keywords": [
+        "System Administration",
+        "Software Development"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "Medium",
+      "keywords": [
+        "Docker",
+        "Infrastructure as Code"
+      ]
+    },
+    {
+      "name": "Network Administration",
+      "level": "Medium",
+      "keywords": [
+        "Networking"
+      ]
+    },
+    {
+      "name": "System Administration",
+      "level": "Medium",
+      "keywords": [
+        "Service Management",
+        "System Monitoring"
+      ]
+    },
+    {
+      "name": "Teamwork",
+      "level": "High",
+      "keywords": [
+        "Collaboration",
+        "Efficient Communication"
+      ]
+    },
+    {
+      "name": "Scrum",
+      "level": "Medium",
+      "keywords": [
+        "Agile Development",
+        "Project Management"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Basic"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://project.com/"
+    }
+  ]
+}

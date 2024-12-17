@@ -1,0 +1,244 @@
+{
+  "basics": {
+    "name": "Luis Miguel Domínguez Piel",
+    "label": "Ingeniero en Ciencias Informáticas",
+    "image": "/me.webp",
+    "email": "ldominguezpiel@gmail.com",
+    "phone": "+34 688888888",
+    "url": "https://github.com/luismdp05",
+    "summary": "Ingeniero en Ciencias Informáticas apasionado por la tecnología y el desarrollo de soluciones innovadoras. Mi experiencia se centra en el desarrollo web, las soluciones de software empresarial así como en la gestión de redes y administración de sistemas de TI. Impulsado por el desarrollo personal, la proactividad y la productividad, la adquisición de nuevas experiencias que no solo enriquezcan mis habilidades, sino que permita aportar valor significativo a las organizaciones con las que colaboro.",
+    "location": {
+      "address": "",
+      "postalCode": "17100",
+      "city": "La Habana",
+      "countryCode": "ES",
+      "region": "Cuba"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "luismdp05",
+        "url": "https://www.linkedin.com/in/luismdp05/"
+      },
+      {
+        "network": "X",
+        "username": "luismdp05",
+        "url": "https://x.com/luismdp05"
+      },
+      {
+        "network": "GitHub",
+        "username": "luismdp05",
+        "url": "https://github.com/luismdp05"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Desarrollador Freelancer",
+      "position": "Desarrollador",
+      "url": "https://github.com/luismdp05",
+      "startDate": "2024-02",
+      "endDate": null,
+      "summary": "Ofrezco servicios de desarrollo de software, desarrollo y personalización de módulos en Odoo, gestión y administración de redes y sistemas de TI.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Universidad de las Ciencias Informáticas",
+      "position": "Profesor",
+      "url": "https://www.uci.cu/",
+      "startDate": "2024-02",
+      "endDate": null,
+      "summary": "Imparto la asignatura de Redes y Seguridad Informática de la carrera Ingeniería en Ciencias Informáticas, departamento de Sistemas Digitales de  la Universidad de las Ciencias Informáticas(UCI).",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Medium Coders",
+      "position": "Odoo ERP Developer",
+      "startDate": "2024-02-25",
+      "endDate": null,
+      "summary": "Desarrollo de un Módulo Website personalizado para la empresa Hino Panamá.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Universidad de las Ciencias Informáticas - CIGE ",
+      "position": "Desarrollador de Sofware",
+      "startDate": "2022-09",
+      "endDate": "2023-12",
+      "summary": "Desarrollo de un Módulo de Gestión de Disponibilidad de Mercancía Marítima en el Centro de Información Gobierno Empresa(CIGE) para la empresa TECNOTEX usando (Odoo version 15)",
+      "highlights": [
+        "Started the company"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad de las Ciencias Informáticas",
+      "url": "https://www.uci.cu/",
+      "area": "Ingeniería en Ciencias Informáticas",
+      "studyType": "Ingeniería",
+      "startDate": "2018-09",
+      "endDate": "2023-12",
+      "score": "4.18",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML5",
+      "level": "Medio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "CSS3",
+      "level": "Medio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Medio",
+      "keywords": [
+        "Backend",
+        "Data Science"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Medio",
+      "keywords": [
+        "Frontend",
+        "Desarrollo Interactivo"
+      ]
+    },
+    {
+      "name": "XML",
+      "level": "Medio",
+      "keywords": [
+        "Interfacing",
+        "Configuración"
+      ]
+    },
+    {
+      "name": "Odoo",
+      "level": "Medio",
+      "keywords": [
+        "ERP",
+        "Gestión de Negocio"
+      ]
+    },
+    {
+      "name": "Django",
+      "level": "Medio",
+      "keywords": [
+        "Backend",
+        "Desarrollo Web"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Medio",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración en Proyectos"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Medio",
+      "keywords": [
+        "Repositorios",
+        "Colaboración en Proyectos"
+      ]
+    },
+    {
+      "name": "Linux",
+      "level": "Medio",
+      "keywords": [
+        "Administración de Sistemas",
+        "Desarrollo de Software"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "Medio",
+      "keywords": [
+        "Docker",
+        "Infraestructura como Código"
+      ]
+    },
+    {
+      "name": "Network Administration",
+      "level": "Medio",
+      "keywords": [
+        "Redes"
+      ]
+    },
+    {
+      "name": "System Administration",
+      "level": "Medio",
+      "keywords": [
+        "Gestión de Servicios",
+        "Monitoreo de Sistemas"
+      ]
+    },
+    {
+      "name": "Teamwork",
+      "level": "Alto",
+      "keywords": [
+        "Colaboración",
+        "Comunicación Eficiente"
+      ]
+    },
+    {
+      "name": "Scrum",
+      "level": "Medio",
+      "keywords": [
+        "Desarrollo Ágil",
+        "Gestión de Proyectos"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Idioma Nativo"
+    },
+    {
+      "language": "English",
+      "fluency": "Basico"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://project.com/"
+    }
+  ]
+}
