@@ -4,7 +4,7 @@
     "label": "Ingeniero en Ciencias Informáticas",
     "image": "/me.webp",
     "email": "ldominguezpiel@gmail.com",
-    "phone": "+34 688888888",
+    "phone": "+53 55555555",
     "url": "https://github.com/luismdp05",
     "summary": "Ingeniero en Ciencias Informáticas apasionado por la tecnología y el desarrollo de soluciones innovadoras. Mi experiencia se centra en el desarrollo web, las soluciones de software empresarial así como en la gestión de redes y administración de sistemas de TI. Impulsado por el desarrollo personal, la proactividad y la productividad, la adquisición de nuevas experiencias que no solo enriquezcan mis habilidades, sino que permita aportar valor significativo a las organizaciones con las que colaboro.",
     "location": {
@@ -58,6 +58,7 @@
     {
       "name": "Medium Coders",
       "position": "Odoo ERP Developer",
+      "url": "https://www.mediumcoders.com/es_CO",
       "startDate": "2024-02-25",
       "endDate": null,
       "summary": "Desarrollo de un Módulo Website personalizado para la empresa Hino Panamá.",
@@ -68,6 +69,7 @@
     {
       "name": "Universidad de las Ciencias Informáticas - CIGE ",
       "position": "Desarrollador de Sofware",
+      "url": "https://www.uci.cu/",
       "startDate": "2022-09",
       "endDate": "2023-12",
       "summary": "Desarrollo de un Módulo de Gestión de Disponibilidad de Mercancía Marítima en el Centro de Información Gobierno Empresa(CIGE) para la empresa TECNOTEX usando (Odoo version 15)",
