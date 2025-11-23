@@ -3,7 +3,7 @@ import Section from "../Section.astro"
 import HTML5 from "@/icons/html5.astro"
 import GitHub from "@/icons/GitHub.astro"
 import Git from "@/icons/git.astro"
-import { skills } from "@cv"
+import { skills, sections } from "@cv"
 import CSS3 from "@/icons/css.astro"
 import Python from "@/icons/python.astro"
 import JavaScript from "@/icons/javascript.astro"
@@ -36,7 +36,7 @@ const SKILLS_ICONS: Record<string, any> = {
 }
 ---
 
-<Section title="Habilidades">
+<Section title={sections[0].skillsTitle}>
   <ul>
     {
       skills.map(({ name }) => {

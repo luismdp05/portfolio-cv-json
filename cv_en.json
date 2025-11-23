@@ -32,7 +32,28 @@
       }
     ]
   },
+  "sections": [
+    {
+      "educationTitle": "Education",
+      "workTitle": "Work Experience",
+      "certificatesTitle": "Certificates",
+      "skillsTitle": "Skills",
+      "languagesTitle": "Languages",
+      "projectsTitle": "Projects"
+    }
+  ],
   "work": [
+    {
+      "name": "Reserva Inc",
+      "position": "Odoo ERP Developer",
+      "url": "https://onreserva.com/",
+      "startDate": "2025-09-18",
+      "endDate": null,
+      "summary": null,
+      "highlights": [
+        "Started the company"
+      ]
+    },
     {
       "name": "Freelance Developer",
       "position": "Developer",
@@ -59,7 +80,7 @@
       "name": "Medium Coders",
       "position": "Odoo ERP Developer",
       "startDate": "2024-02-25",
-      "endDate": null,
+      "endDate": "2024-09-25",
       "summary": "Development of a custom Website module for Hino Panama company.",
       "highlights": [
         "Started the company"

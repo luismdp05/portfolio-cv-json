@@ -1,17 +1,24 @@
 ---
 import Section from "../Section.astro"
 
-import { work } from "@cv"
+import { work, sections } from "@cv"
 ---
 
-<Section title="Experiencia laboral">
+<Section title={sections[0].workTitle}>
   <ul>
     {
       work.map(
         ({ name, startDate, endDate, position, summary, highlights, url }) => {
-          const startYear = new Date(startDate).getFullYear()
-          const endYear =
-            endDate != null ? new Date(endDate).getFullYear() : "Actual"
+          const formatDate = (date: string | null): string => {
+            if (!date) return "Actual";
+            const d = new Date(date);
+            const month = String(d.getMonth() + 1).padStart(2, '0');
+            const year = d.getFullYear();
+            return `${month}/${year}`;
+          };
+
+          const start = formatDate(startDate);
+          const end = formatDate(endDate);
 
           return (
             <li>
@@ -25,28 +32,22 @@ import { work } from "@cv"
                     </h3>
                     <h4>{position}</h4>
                   </div>
-
                   <div>
-                    <time 
-                      datetime={startDate}
-                      data-title={startDate}>
-                        {startYear}
+                    <time datetime={startDate} data-title={startDate}>
+                      {start}
                     </time>
                     {" - "}
-                    <time 
-                      datetime={endDate}
-                      data-title={endDate}>
-                        {endYear}
+                    <time datetime={endDate || undefined} data-title={endDate || ""}>
+                      {end}
                     </time>
                   </div>
                 </header>
-
                 <footer>
                   <p>{summary}</p>
                 </footer>
               </article>
             </li>
-          )
+          );
         }
       )
     }

@@ -1,17 +1,25 @@
 ---
 import Section from "../Section.astro"
 
-import { education } from "@cv"
+import { education, sections } from "@cv"
 ---
 
-<Section title="Educación">
+<Section title={sections[0].educationTitle}>
   <ul>
     {
       education.map(({ institution, startDate, endDate, area }) => {
-        const startYear = new Date(startDate).getFullYear()
-        const endYear =
-          endDate != null ? new Date(endDate).getFullYear() : "Actual"
-        const years = `${startYear} - ${endYear}`
+        const formatDate = (date: string | null): string => {
+          if (!date) return "Actual";
+          const d = new Date(date);
+          const month = String(d.getMonth() + 1).padStart(2, '0');
+          const year = d.getFullYear();
+          return `${month}/${year}`;
+        };
+
+        const start = formatDate(startDate);
+        const end = formatDate(endDate);
+
+        const period = end === "Actual" ? `${start} - ${end}` : `${start} - ${end}`;
 
         return (
           <li>
@@ -20,16 +28,14 @@ import { education } from "@cv"
                 <div>
                   <h3>{institution}</h3>
                 </div>
-
-                <time>{years}</time>
+                <time>{period}</time>
               </header>
-
               <footer>
                 <p>{area}</p>
               </footer>
             </article>
           </li>
-        )
+        );
       })
     }
   </ul>

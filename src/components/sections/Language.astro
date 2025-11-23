@@ -1,10 +1,10 @@
 ---
 import Section from "../Section.astro"
 
-import { languages } from "@cv"
+import { languages, sections } from "@cv"
 ---
 
-<Section title="Idiomas">
+<Section title={sections[0].languagesTitle}>
   <ul>
     {
       languages.map(({ language, fluency }) => {
