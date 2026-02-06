@@ -44,17 +44,6 @@
   ],
   "work": [
     {
-      "name": "Reserva Inc",
-      "position": "Odoo ERP Developer",
-      "url": "https://onreserva.com/",
-      "startDate": "2025-09-18",
-      "endDate": "2025-12-31",
-      "summary": null,
-      "highlights": [
-        "Started the company"
-      ]
-    },
-    {
       "name": "Desarrollador Freelancer",
       "position": "Desarrollador",
       "url": "https://github.com/luismdp05",
@@ -72,6 +61,17 @@
       "startDate": "2024-02",
       "endDate": null,
       "summary": "Imparto la asignatura de Redes y Seguridad Informática de la carrera Ingeniería en Ciencias Informáticas, departamento de Sistemas Digitales de  la Universidad de las Ciencias Informáticas(UCI).",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Reserva Inc",
+      "position": "Odoo ERP Developer",
+      "url": "https://onreserva.com/",
+      "startDate": "2025-09-18",
+      "endDate": "2025-12-31",
+      "summary": null,
       "highlights": [
         "Started the company"
       ]
