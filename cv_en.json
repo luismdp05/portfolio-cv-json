@@ -2,11 +2,11 @@
   "basics": {
     "name": "Luis Miguel Domínguez Piel",
     "label": "Computer Science Engineer",
-    "image": "/me.webp",
+    "image": "/me.png",
     "email": "ldominguezpiel@gmail.com",
     "phone": "+34 688888888",
     "url": "https://github.com/luismdp05",
-    "summary": "Passionate Computer Science Engineer focused on technology and innovative solution development. My experience centers on web development, enterprise software solutions, as well as network management and IT system administration. Driven by personal development, proactivity, and productivity, acquiring new experiences that not only enrich my skills but allow me to provide significant value to the organizations I collaborate with.",
+    "summary": "Computer Science Engineer passionate about technology and the development of innovative solutions—spanning web development, enterprise software, and IT systems administration. I love transforming ideas into efficient, secure, and scalable technological solutions aligned with business needs. Driven by innovation, continuous improvement, and process optimization, I focus on solving problems and creating impact through technology. Committed to continuous learning and technical excellence.",
     "location": {
       "address": "",
       "postalCode": "17100",
@@ -49,7 +49,7 @@
       "url": "https://onreserva.com/",
       "startDate": "2025-09-18",
       "endDate": "2025-12-31",
-      "summary": null,
+      "summary": "Development and customization of Odoo v12 modules. Customer Service and Technical Support.",
       "highlights": [
         "Started the company"
       ]
@@ -81,7 +81,7 @@
       "position": "Odoo ERP Developer",
       "startDate": "2024-02-25",
       "endDate": "2024-09-25",
-      "summary": "Development of a custom Website module for Hino Panama company.",
+      "summary": "Development of a custom website module for Hino Panamá odoo v17.",
       "highlights": [
         "Started the company"
       ]
